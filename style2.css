@@ -1,15 +1,9 @@
 
  /* Aqui começa seu CSS */
 body {
-  background-color: #f0f0f0;
+  background-color: red;
   font-family:georgia, serif;
-   font-size:20 px
- .barra-pesquisa {
- width: 300 px;
- height: 40 px;
- font-size:16 px;
-}
-
+   font-size:20 px}
 h1 {
   color: #333;
   text-align: center;
