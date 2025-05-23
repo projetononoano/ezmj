@@ -8,7 +8,7 @@ body{
     background-color: rgba(135, 192, 196, 0.705);
     text-align: center;
 }
-.input{background-color: rgba(146, 158, 184, 0.39);
+.input{background-color: white;
     border: radius 85px;
 }
 h1{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-se;}
