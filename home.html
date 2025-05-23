@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Abas com Imagem</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="tabs">
+    <button class="tab-button" onclick="openTab('info')">Informações</button>
+    <button class="tab-button" onclick="openTab('imagem')">Imagem</button>
+  </div>
+
+  <div id="info" class="tab-content">
+    <h2>Informações</h2>
+    <p>Este é o conteúdo da aba de informações.</p>
+  </div>
+
+  <div id="imagem" class="tab-content" style="display:none">
+    <h2>Imagem</h2>
+    <img src="sua-imagem.jpg" alt="Descrição da imagem" style="max-width:100 %;">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
