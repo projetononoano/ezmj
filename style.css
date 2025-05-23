@@ -1,18 +1,18 @@
 .titulo{
-    color:rgb(65, 60, 47);
-    font-size: 50px;
+    color:rgb (65, 60, 47);
+    font-size: 50 px;
     }
 
 
 body{
-    background-color: rgba(135, 192, 196, 0.705);
+    background-color: rgba (135, 192, 196, 0.705);
     text-align: center;
 }
 .input{background-color: white;
-    border: radius 85px;
+    border: radius 85 px;
 }
 h1{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-se;}
 input{border: none;
-    border-radius: 20px;
-color: rgb(19, 29, 44);
+    border-radius: 20 px;
+color: rgb (19, 29, 44);
 }
