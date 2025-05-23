@@ -1,7 +1,7 @@
 
  /* Aqui começa seu CSS */
 body {
-  background-color: off white;
+  background-color:khaki;
   font-family:georgia, serif;
    font-size:20 px}
 h1 {
@@ -11,7 +11,7 @@ h1 {
 input{
 align-items: center;
  justify-content: center;
- border-radius: 25px;
+ border-radius: 25 px;
 }
 
 
