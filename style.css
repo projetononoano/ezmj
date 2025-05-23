@@ -10,11 +10,11 @@ body{
 }
 .input{
     background-color: black;
-    color: black;
+    color: white;
     border: none;
     border-radius: 20 px; 
 }
 h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-se;
+    font-family: 'Cascadia-code';
 }
 
