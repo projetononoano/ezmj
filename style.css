@@ -9,9 +9,7 @@ body{
     text-align: center;
 }
 .input{
-    background-color: white;
-    color: white;
-    border: none;
+    color: black;
     border-radius: 20 px; 
 }
 h1{
