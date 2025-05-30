@@ -1,0 +1,52 @@
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 1 Enzo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1 class="titulo">Registro médico</h1>
+
+    <form id="cadastroForm">
+        <div class="dgerais">
+            <h3>DADOS GERAIS</h3>
+            Nome: <input type="text" class="input"> <br>
+            Sobrenome: <input type="text" class="input"><br>  
+            Idade: <input type="number" class="input"> <br>  
+            Sexo: <input type="radio" name="sexo" value="Masc" class="input"> Masc 
+                  <input type="radio" name="sexo" value="Fem" class="input"> Fem <br>
+            Data de Nascimento: <input type="date" class="input"> <br>
+            Email: <input type="email" class="input"> <br> 
+            Senha: <input type="password" class="input"> <br> 
+        </div>
+
+        <div class="dsecundarios">
+            <h4>DADOS SECUNDÁRIOS</h4>
+            Nome do Pai: <input type="text" class="input"> <br>
+            Nome da Mãe: <input type="text" class="input"> <br>
+            Altura: <input type="number" class="input"><br> 
+            Peso: <input type="number" class="input"> <br>
+            Alergias: <input type="text" class="input"><br>
+        </div>
+
+        <input type="reset" value="Limpar">
+        <button type="submit" onclick="redirecionar()">Enviar</button>
+
+    </form>
+
+    <script>
+        document.getElementById("cadastroForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            alert("Cadastro realizado com sucesso!");
+            redirecionar();
+        });
+
+        function redirecionar() {
+            window.location.href = 'index2.html';
+        }
+    </script>
+</body>
+</html>
+
+
